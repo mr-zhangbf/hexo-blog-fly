@@ -1,8 +1,8 @@
 ---
 title: 博客开源
 date: 2019-08-27 11:41:03
-author: 洪卫
-img: 
+author: 本富
+img: false
 coverImg: /medias/banner/0.jpg
 top: true
 cover: true
@@ -93,9 +93,5 @@ password:
 
 **持续更新中...，如果遇到问题欢迎联系我，在文章最后评论区【留言和讨论】，当然，欢迎点击文章最后的打赏按键，请博主一杯冰阔乐，笑～**
 <escape>
-<table>
-  <tr>
-    <td><img width="100" src="https://sunhwee.com/medias/reward/alipay.bmp" ></td>    <td><img width="100" src="https://sunhwee.com/medias/reward/wechat.bmp" ></td>    <td><img width="100" src="https://sunhwee.com/medias/reward/zan.png" ></td>   
-  </tr>
-</table>
+
 </escape>

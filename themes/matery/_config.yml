@@ -1,4 +1,4 @@
-# shw2018 洪卫  modify 2019.08.01
+# shw2018 本富  modify 2019.08.01
 # main menu navigation url and icon
 # 配置菜单导航的名称、路径和图标icon.
 menu:
@@ -64,7 +64,7 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: false
   showTitle: false
   title: 听听音乐
   fixed: false # 开启吸底模式
@@ -97,6 +97,7 @@ video:
 # Whether to display the title of the recommended posts
 # 是否显示推荐文章的标题
 recommend:
+	enable: false
   showTitle: true
 
 # Configure website favicon and LOGO
@@ -111,17 +112,17 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://github.com/shw2018/
+  url: https://github.com/mr-zhangbf/
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 948840751
-  github: shw2018
-  weibo: 3010027571  # 微风穿云隙
-  email: 948840751@qq.com
-  zhihu: hongwei-60-34 # Hongwei
+  qq: 972948137
+  github: mr-zhangbf
+  weibo:   # 微风穿云隙
+  email: 972948137@qq.com
+  zhihu:  # Hongwei
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -182,7 +183,7 @@ clicklove:
 profile:
   avatar: /medias/avatars/hwsun.jpg
   career: 电子科技大学 | 电子与通信工程 | 计算机视觉
-  introduction: 我是电子科技大学信息与通信工程学院2018级硕士研究生。研究方向是计算机视觉，深度学习。我们实验室是智能视觉信息处理与通信实验室(IVIPC)，欢迎大家报考！
+  introduction: yes！
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -257,8 +258,8 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: true
-  owner: shw2018
-  repo: shw2018.github.io
+  owner: mr-zhangbf
+  repo: mr-zhangbf.github.io
   oauth:
     clientId: XXXXXXXXXXXXXXXXXXXXXXXXXXXX
     clientSecret: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -304,8 +305,8 @@ valine:
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
-  enable: true
-  url: https://github.com/shw2018/shw2018.github.io
+  enable: false
+  url: https://github.com/mr-zhangbf/mr-zhangbf.github.io
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -353,7 +354,7 @@ libs:
     #jqcloud: /libs/jqcloud/jqcloud.css
     jqcloud: https://cdn.bootcss.com/jqcloud/1.0.4/jqcloud.min.css
     tocbot: /libs/tocbot/tocbot.css
-    #  洪卫 shw2018  add 2019.08.28
+    #  本富 shw2018  add 2019.08.28
     fancybox: https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css
     justifiedGallery: https://cdn.staticfile.org/justifiedGallery/3.7.0/css/justifiedGallery.min.css
     share: /libs/share/css/share.min.css
@@ -386,20 +387,20 @@ libs:
     #jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
     jqcloud: https://cdn.bootcss.com/jqcloud/1.0.4/jqcloud-1.0.4.min.js
     tocbot: /libs/tocbot/tocbot.min.js
-    #  洪卫 shw2018  add 2019.08.28
+    #  本富 shw2018  add 2019.08.28
     fancybox: https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js
     justifiedGallery: https://cdn.staticfile.org/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js
     lazyload: /libs/lazyload/jquery.lazyload.js
     share: /libs/share/js/social-share.min.js
     matery: /js/matery.js
     search: /js/search.js
-    #  洪卫 shw2018  add 2019.09.10
+    #  本富 shw2018  add 2019.09.10
     sakura: /js/sakura.js  #这文件真大...里面编码了个图片
     fireworks: /js/fireworks.js
     wenzi: /js/wenzi.js
     xuehuapiaoluo: /js/xuehuapiaoluo.js
     instant.page: /js/instant.page.js
-    #  洪卫 shw2018  add 2019.09.15
+    #  本富 shw2018  add 2019.09.15
     canvas_nest: /libs/background/canvas-nest.js
     ribbon: /libs/background/ribbon.min.js
     ribbon_dynamic: /libs/background/ribbon-dynamic.js
@@ -459,39 +460,39 @@ reprint:
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: true
 
-# 洪卫 shw2018 add 2019.09.09
+# 本富 shw2018 add 2019.09.09
 # 页面樱花飘落动效
 sakura:
-  enable: true
+  enable: false
 
 # 鼠标点击烟花爆炸动效
 fireworks:
-  enable: true
+  enable: false
 
-# 洪卫 shw2018 add 2019.09.10
+# 本富 shw2018 add 2019.09.10
 # 天气控件 Weather Widget
 weather:
   enable: true
 
-# 洪卫 shw2018 add 2019.09.10
+# 本富 shw2018 add 2019.09.10
 # 鼠标点击文字特效 
 wenzi:
-  enable: true
+  enable: false
 
-# 洪卫 shw2018 add 2019.09.10
+# 本富 shw2018 add 2019.09.10
 # 背景雪花飘落特效
 xuehuapiaoluo:
-  enable: true
+  enable: false
 
 # Tidio online contact 
 tidio:
   enable: true
   public_key: xxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-# 洪卫 shw2018 add 2019.09.15
+# 本富 shw2018 add 2019.09.15
 #背景canvas-nest
 canvas_nest:
-  enable: true
+  enable: false
   color: 0,0,255 #线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   pointColor: 0,0,255 #交点颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   opacity: 0.8 # 线条透明度（0~1）, 默认: 0.5

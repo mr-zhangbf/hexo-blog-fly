@@ -1,21 +1,21 @@
-# shw2018 洪卫  modify 2019.08.01
+# shw2018 本富  modify 2019.08.01
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 洪卫的博客
-subtitle: 洪卫的博客
-description: 电子科技大学 | 电子与通信工程 | 计算机视觉
-keywords: UESTC CV DeepLearning MachineLearning 洪卫 sunhw Hongwei 计算机视觉 深度学习
-author: 洪卫
+title: 张本富的博客
+subtitle: 人有的时候不能太惯着自己
+description: 北京应用技术大学/海南职业技术学院 | 电子商务 | 视觉传达设计
+keywords: UESTC CV DeepLearning MachineLearning 本富 sunhw Hongwei 视觉传达设计 深度学习
+author: 本富
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 # url: https://shw2018.github.io/
-url: https://sunhwee.com
+url: http://mr-zhangbf.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -108,14 +108,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: matery
+theme: pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
   repo:
-    github:  https://github.com/shw2018/shw2018.github.io.git
+    github:  git@github.com:mr-zhangbf/mr-zhangbf.github.io.git
     # coding: https://git.coding.net/hwsun/hwsun.git
     # gitee: https://gitee.com/hwsun/hwsun.git
   branch: master

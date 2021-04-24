@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-author: 洪卫
+author: 本富
 img: 
 coverImg: 
 top: false

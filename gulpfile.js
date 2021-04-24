@@ -1,4 +1,4 @@
-// shw2018 洪卫  add 2019.08.15
+// shw2018 本富  add 2019.08.15
 var gulp = require("gulp");
 var debug = require("gulp-debug");
 var cleancss = require("gulp-clean-css"); //css压缩组件
